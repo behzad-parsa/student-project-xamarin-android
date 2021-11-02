@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">App1</string>
+  <string name="grade">Enter Grade</string>
+  <string name="edittext_hint">
+    <font size="2">Hint here!</font>
+  </string>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/lnDirect">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:text="Choose  :"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup1"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:padding="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+        <Button
+            android:text="COPY"
+            android:id="@+id/btnCopy"
+            android:textColor="@android:color/background_light"
+            android:background="#d34b10"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Button
+            android:text="CALL"
+            android:id="@+id/btnCall"
+            android:textColor="@android:color/background_light"
+            android:background="@android:color/holo_green_light"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout1"
+        android:layout_marginTop="10dp"
+        android:visibility="visible">
+        <Button
+            android:text="CALL"
+            android:id="@+id/btnCall"
+            android:layout_width="112.5dp"
+            android:layout_height="43.0dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@android:color/background_light"
+            android:background="@android:color/holo_green_light"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentTop="false" />
+        <Button
+            android:text="COPY"
+            android:id="@+id/btnCopy"
+            android:layout_width="112.5dp"
+            android:layout_height="43.0dp"
+            android:layout_alignParentRight="false"
+            android:textColor="@android:color/background_light"
+            android:background="#d34b10"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false" />
+    </RelativeLayout>
+</LinearLayout>

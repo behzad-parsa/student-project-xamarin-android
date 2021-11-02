@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item
+      android:id="@+id/navCategory"
+      android:enabled ="true"
+      android:icon="@drawable/view_grid"
+      android:title="Category"
+      app:showAsAction ="ifRoom"/>
+
+  <item
+      android:id="@+id/navAd"
+      android:enabled ="true"
+      android:icon="@drawable/listFormat"
+     android:title="List" 
+      app:showAsAction ="ifRoom"/>
+
+  <item
+
+      android:id="@+id/navAdd"
+      android:enabled ="true"
+      android:icon="@drawable/plus"
+      android:title="Add"
+      app:showAsAction ="ifRoom"/>
+
+  
+
+</menu>

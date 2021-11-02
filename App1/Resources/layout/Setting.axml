@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/settingToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52.5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:navigationIcon="@drawable/arrow_left"
+        app:contentInsetStartWithNavigation="0dp"
+        app:contentInsetStart="0dp"
+        android:contentInsetLeft="0dp"
+        android:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark">
+        <TextView
+            android:id="@+id/setToolTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textColor="@android:color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textSize="15dp" />
+    </android.support.v7.widget.Toolbar>
+    <RadioGroup
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1"
+        android:padding="10dp">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Blue"
+            android:id="@+id/radioButton1"
+            android:background="@android:color/holo_blue_light"
+            android:textColor="@android:color/background_light" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:id="@+id/radioButton2"
+            android:textColor="@android:color/background_light"
+            android:background="@android:color/holo_red_dark" />
+    </RadioGroup>
+    <Button
+        android:text="Set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"><android.support.v7.widget.Toolbar android:id="@+id/adListToolbar" android:layout_width="match_parent" android:layout_height="52.5dp" android:minHeight="?attr/actionBarSize" android:background="?attr/colorPrimary" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:navigationIcon="@drawable/arrow_left" android:contentInsetLeft="0dp" android:contentInsetStart="0dp" android:contentInsetRight="0dp" android:contentInsetEnd="0dp" app:contentInsetStartWithNavigation="0dp" app:contentInsetStart="0dp" app:contentInsetLeft="0dp" app:contentInsetRight="0dp" app:contentInsetEnd="0dp" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"><TextView android:id="@+id/setAdListTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Advertise" android:textColor="@android:color/white" style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" android:textSize="15dp" /></android.support.v7.widget.Toolbar><android.support.v7.widget.RecyclerView android:id="@+id/recyclerViewProduct" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#f7f7f7" /><!--<ListView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lstViewProduct"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:background="#f7f7f7" />--></LinearLayout>

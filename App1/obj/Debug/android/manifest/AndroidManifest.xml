@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="App1.App1" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+  <uses-sdk android:minSdkVersion="23" android:targetSdkVersion="25" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="about US" android:theme="@style/Theme.DesignDemo" android:name="md5579855c995bdb073d8182511e793544c.AboutUsActivity" />
+    <activity android:label="AdvertiseActivity" android:theme="@style/MyTheme" android:name="md5579855c995bdb073d8182511e793544c.AdvertiseActivity" />
+    <activity android:label="AverageActivity" android:theme="@style/MyTheme" android:name="md5579855c995bdb073d8182511e793544c.AverageActivity" />
+    <activity android:label="Detail" android:theme="@style/MyTheme" android:name="md5579855c995bdb073d8182511e793544c.Detail" />
+    <activity android:icon="@drawable/icon" android:label="NIT Contact" android:theme="@style/MyTheme" android:name="md5579855c995bdb073d8182511e793544c.MainActivity" />
+    <activity android:label="Names" android:name="md5579855c995bdb073d8182511e793544c.nameActivity" />
+    <activity android:label="Name" android:theme="@style/MyTheme" android:name="md5579855c995bdb073d8182511e793544c.ContactActivity" />
+    <activity android:label="SettingActivity" android:theme="@style/MyTheme" android:name="md5579855c995bdb073d8182511e793544c.SettingActivity" />
+    <activity android:noHistory="true" android:theme="@style/Theme.Splash" android:name="md5579855c995bdb073d8182511e793544c.SplashActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="TestActivity" android:name="md5579855c995bdb073d8182511e793544c.TestActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="App1.App1.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.App1.App1" />
+      </intent-filter>
+    </receiver>
+    <meta-data android:name="android.support.VERSION" android:value="25.4.0" />
+  </application>
+</manifest>

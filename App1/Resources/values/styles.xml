@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  
+  <style name="dialog_animation">
+    <item name="android:windowEnterAnimation">@anim/slide_up</item>
+    <item name="android:windowExitAnimation">@anim/slide_down</item>
+  </style>
+
+
+  <style name="Theme.Splash" parent="android:Theme">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsTranslucent">false</item>
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:backgroundDimEnabled">true</item>
+  </style>
+  
+  
+  
+  
+  
+  
+
+  <style name="MyTheme" parent="MyTheme.Base">
+
+  </style>
+
+  <!-- Base theme applied no matter what API -->
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+    <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+    <!-- colorPrimary is used for the default action bar background -->
+    <item name="colorPrimary">#2196F3</item>
+    <!-- colorPrimaryDark is used for the status bar -->
+    <item name="colorPrimaryDark">#1976D2</item>
+    <!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets -->
+    <item name="colorAccent">#FF4081</item>
+
+    <item name="colorControlHighlight">#FF4081</item>
+    <!-- You can also set colorControlNormal, colorControlActivated
+         colorControlHighlight and colorSwitchThumbNormal. -->
+  </style>
+
+
+
+
+
+
+
+  <style name="MyThemeSecond" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    <!--We will be using the toolbar so no need to show ActionBar-->
+    <item name="windowActionBar">false</item>
+     Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette
+     <!--colorPrimary is used for the default action bar background--> 
+    <item name="colorPrimary">#cc0000</item>
+     <!--colorPrimaryDark is used for the status bar--> 
+    <item name="colorPrimaryDark">#990000</item>
+     <!--colorAccent is used as the default value for colorControlActivated-->
+         <!--which is used to tint widgets--> 
+    <item name="colorAccent">#248f24</item>
+
+    <item name="colorControlHighlight">#9A2EFE</item>
+     <!--You can also set colorControlNormal, colorCont--><!--rolActivated
+         colorControlHighlight and colorSwitchThumbNormal.-->
+    <item name="android:navigationBarColor">#cc0000</item>
+  </style>
+
+
+
+
+
+
+  <!--<style name="MyThemeSecond" parent="MyTheme.Base">
+
+  </style>
+
+
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="windowNoTitle">true</item>
+    We will be using the toolbar so no need to show ActionBar
+    <item name="windowActionBar">false</item>
+    Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette
+    colorPrimary is used for the default action bar background
+    <item name="colorPrimary">#088A29</item>
+    colorPrimaryDark is used for the status bar
+    <item name="colorPrimaryDark">#FF0000</item>
+    colorAccent is used as the default value for colorControlActivated
+    which is used to tint widgets
+    <item name="colorAccent">#FF4081</item>
+
+    <item name="colorControlHighlight">#9A2EFE</item>
+    You can also set colorControlNormal, colorControlActivated
+    colorControlHighlight and colorSwitchThumbNormal.
+  </style>-->
+
+
+
+
+  <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+
+  </style>
+  <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">#2196F3</item>
+    <item name="colorPrimaryDark">#1976D2</item>
+  </style>
+  <style name="Widget.CardContent" parent="android:Widget">
+    <item name="android:paddingLeft">16dp</item>
+    <item name="android:paddingRight">16dp</item>
+    <item name="android:paddingTop">24dp</item>
+    <item name="android:paddingBottom">24dp</item>
+    <item name="android:orientation">vertical</item>
+  </style>
+
+
+
+  <style name="m" parent="TextAppearance.AppCompat">
+    <item name="android:textSize">2dp</item>
+  </style>
+
+
+</resources>
